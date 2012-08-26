@@ -1,0 +1,10 @@
+<configuration plugin="jumper">
+	<settings name="commands">
+        <set name='jmpstart-start'>20</set>
+        <set name='jmpstop-stop'>20</set>
+        <set name='jmpsaverecord-saverecord'>20</set>
+        <set name='jmpdelrecord-delrecord'>20</set>
+        <set name='jmprecord-record'>0</set>
+        <set name='jmpmaprecord-maprecord'>0</set>
+	</settings>
+</configuration>
