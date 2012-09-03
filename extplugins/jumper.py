@@ -373,7 +373,7 @@ class JumperPlugin(b3.plugin.Plugin):
         # Clearing client variables
         self.clearClientVars(client)
         
-        client.message('^3Your record has been saved pemanently')
+        client.message('^3Your record has been saved permanently')
         if newMapRecord: self.console.write('bigtext ^7%s ^3established a new map record!' % (self.stripColors(client.name)))
     
     
